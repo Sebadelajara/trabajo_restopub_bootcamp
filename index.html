@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIMRODEL Restaurant pub</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/n.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+    
+    
+
+</head>
+<body>
+    
+    <!--navbar-->
+    <div class="cajanav">      
+        <img src="./assets/img/n.png" width="100" alt="letra-n-neon">
+        <nav>
+            <ul>
+                <li class="lista">Nuestros Productos</li>
+                <li class="lista">Sobre nosotros</li>
+                <li class="lista"><a href="#comu">Comuniquemonos</a></li>
+                <li class="lista"><a href="#reserva"> reserva</a></li>
+                        
+            </ul>
+        </nav> 
+    </div>
+
+    <!--titulo y subtitulo-->
+    <br>
+    <h1 id="titulo">Nimrodel Pub Restaurant</h1>
+    <br>
+    <br>
+    <h2 id="subtitulo">Destacados de la semana</h2>
+    <br>
+
+    <!--cards-->
+    <section class="sectable">  
+
+        <div class="destacados">
+            <img src="./assets/img/bebidas.jpg" class="img3" alt="bebidas">
+            <h4>GASEOSAS</h4>
+            <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit.  adinventore.</p>
+        </div>
+            
+        <div class="destacados">
+            <img src="./assets/img/tablas.jpg"  class="img3" alt="tablas">
+            <h4>TABLAS</h4>
+            <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit.  adinventore.</p>
+        </div>
+        
+        <div class="destacados">
+            <img src="./assets/img/shop.jpeg" class="img3" alt="shop">
+            <h4>SHOP CERVEZA</h4>
+            <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit.  adinventore.</p>
+        </div>
+
+    </section>      
+
+
+<!--forms-->
+<div class="formulario1" >
+<section class="form1" id="comu">
+
+    <h3><strong>Comuniquemonos</strong></h3>
+
+    <div>
+        <form action="./redirect.html">
+
+            <label for="Nombre">Nombre</label>
+            <input placeholder="escribe tu nombre" type="text" pattern="^[a-z A-Z]()$" required>
+            <br>
+            <br>
+    
+           
+            <label for="">Correo</label>
+            <input placeholder="aqui tu correo" type="email" required>
+            
+            <br>
+            <br>
+
+            <label for="">Telefono</label>
+            <input placeholder="9 9999 9999" type="number" required>
+
+            <br>
+            <br>
+
+            <label for="">Motivo</label>
+            <input type="text" required>
+
+            <br>
+            <br>
+
+            <textarea>Escribe tu motivo</textarea>
+            
+            <br>
+            <br>
+    
+            <button>ENVIAR</button>
+    
+    
+        </form>
+    </div>
+
+</section>
+</div>
+
+
+    <br>
+    <br>
+
+<section class="form2" id="reserva">
+    <h3><strong>Reserva</strong></h3>
+
+    <div>
+        <form action="./redirect.html">
+            <label for="Nombre">Nombre</label>
+            <input placeholder="xxxx xxxxx" type="text" pattern="^[a-z A-Z]()$" required>
+            <br>
+            <br>
+    
+           
+            <label for="">Correo</label>
+            <input placeholder="xxx@xx.xx" type="email" required>
+            
+            <br>
+            <br>
+
+            <label for="">Telefono</label>
+            <input placeholder="x xxxx xxxx" type="number" required>
+
+            <br>
+            <br>
+            <label for="fecha"></label>
+            <input type="date" name="" id="" required>
+            
+            <br>
+            <br>
+
+            <label for="Hora"></label>
+            <input type="time" required>
+            <br>
+            <br>
+
+            <label for="Nombre">Cantidad de asistentes</label>
+            <input type="number" pattern="" required>
+            <br>
+            <br>
+    
+            <button>ENVIAR</button>
+    
+    
+        </form>
+    </div>
+
+</section>
+
+<!--Footer-->
+
+<footer>
+    
+    <p>todos los derechos reservados</i></p>
+    
+    <i class="fa-regular fa-registered"></i>
+
+    <i class="fa-sharp fa-light fa-user"></i>
+    
+</footer>
+
+</body>
+</html>

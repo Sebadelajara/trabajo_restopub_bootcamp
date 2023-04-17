@@ -1,0 +1,74 @@
+body * {
+    margin: 0;
+    padding: 0;
+    
+}
+
+li {
+    color: antiquewhite;
+}
+
+
+
+.lista {
+    display: inline;
+    margin: 0%;
+}
+
+.cajanav {
+    background-image: url(../assets/img/fondo.jpg);
+    background-size: cover;
+    background-color: black;
+    background-repeat: ;
+}
+
+/* cards */
+.img3 {
+    height: 200px;
+    width: 300px;
+}
+
+.destacados {
+    height: ;
+    width: 250px;
+    background-color: blue;
+    border: ;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.sectable {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.parrafo {
+    text-align: center;
+}
+
+
+
+/*formulario*/
+.form1, .form2 {
+
+}
+
+.formulario1 {
+    background-color: brown;
+    width: 400px;
+    text-align: center;
+    margin: 0 auto ;
+    
+}
+
+/*seleccion por id*/
+#titulo {
+    font-size: 4rem;
+    text-align: center;
+}
+
+#subtitulo {
+    font-size: 1rem;
+    text-align: center;
+}
